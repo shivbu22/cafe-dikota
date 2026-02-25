@@ -1,0 +1,27 @@
+export const locations = [
+    {
+        id: 'alpha1',
+        name: 'Alpha 1, Greater Noida',
+        address: 'Shop No. 9, Ground Floor, Alpha Plaza, Alpha Road, Near Fitness Gym, Alpha 1, Greater Noida — 201310',
+        phone: '+91 95992 55564',
+        hours: '10:00 AM – 10:00 PM',
+        daysOpen: 'Open all days',
+        established: 2019,
+        gmapsUrl: 'https://www.google.com/maps/search/Dakoti+Bakers+Alpha+1+Greater+Noida',
+        lat: 28.4744,
+        lng: 77.5040,
+    },
+    {
+        id: 'beta1',
+        name: 'Beta 1, Greater Noida',
+        address: 'Shop G-09, Rampur, Block D, Beta I, Near Old Greater Noida Authority Circle, CM Market, Beta 1, Greater Noida — 201310',
+        phone: '+91 95992 55565',
+        hours: '10:00 AM – 10:00 PM',
+        daysOpen: 'Open all days',
+        established: 2002,
+        isLegacy: true,
+        gmapsUrl: 'https://www.google.com/maps/search/Dakoti+Bakers+Beta+1+Greater+Noida',
+        lat: 28.4852428,
+        lng: 77.5067981,
+    },
+];

@@ -1,0 +1,9 @@
+# Railway configuration for Dakoti Bakers backend
+[build]
+# Build command runs during deployment
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "node index.js"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
